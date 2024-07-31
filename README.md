@@ -4,7 +4,7 @@ This repository will host the code for our paper: ["CATS: Enhancing Multivariate
 
 ## Code Release
 
-The code will be released in mid-June. Please stay tuned. Thank you for your patience.
+At the current stage, we have released a tutorial in notebook format, `CATS-Tutorial.ipynb`, that demonstrates in detail how to build CATS with various predictors. We are in the process of developing a time series forecasting user interface that integrates statistical, machine learning, and deep learning methods. The complete pipeline usage of CATS will be available in this toolkit.
 
 ## Overall Architecture
 
