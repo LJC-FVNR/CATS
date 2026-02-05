@@ -1,12 +1,16 @@
 # CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables
 
-This repository will host the code for our paper: ["CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables"](https://arxiv.org/abs/2403.01673), to be presented at ICML 2024.
+This is the code repository for the paper:  
+["CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables"](https://arxiv.org/abs/2403.01673).
 
-## Code Release
+We provide a tutorial notebook, `CATS-Tutorial.ipynb`, which demonstrates in detail how to build CATS with various predictors.
 
-At the current stage, we have released a tutorial in notebook format, `CATS-Tutorial.ipynb`, that demonstrates in detail how to build CATS with various predictors. We are in the process of developing a time series forecasting user interface that integrates statistical, machine learning, and deep learning methods. The complete pipeline usage of CATS will be available in this toolkit.
+Please note that the full code and experimental environment have already been released in the repository:  
+https://github.com/LJC-FVNR/ARMA-Attention.  
+The CATS model implementation can be found in `models/CATS.py`.
+
+You can run CATS as a baseline model using `./baseline.sh` by setting `model_name` to `CATS` in the shell script.
 
 ## Overall Architecture
 
 ![Overall Architecture](figs/CATS.png)
-
